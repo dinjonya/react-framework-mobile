@@ -30,14 +30,12 @@ class App extends Component {
       <WhiteSpace />
         <div>几个按钮</div>
         <WhiteSpace />
-        
           <Button>default</Button><WhiteSpace />
           <Button disabled>default disabled</Button><WhiteSpace />
           <Button type='primary'>test button</Button><WhiteSpace />
-        
-        <span className={ pstyles.top }>first react demo</span>
-        <span className={ pstyles.bottom }>test text</span>
-        <Gadget />
+          <span className={ pstyles.top }>first react demo</span>
+          <span className={ pstyles.bottom }>test text</span>
+          <Gadget />
         </WingBlank>
       </div>
     );
